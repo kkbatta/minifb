@@ -1,0 +1,14 @@
+version: '3'
+services:
+    kksampleapi:
+      build: .
+      volumes:
+        - .:/kk/SampleCode/kkSample
+      ports:
+        - 8090:8080
+    kksampleapi2:
+      image: kkbatta/kksampleapi:latest
+      ports:
+        - 8095:8080
+      depends_on:
+        - kksampleapi
