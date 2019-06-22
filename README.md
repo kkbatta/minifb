@@ -10,11 +10,11 @@ As this was a quick whip for interview, I chose a cost effective and low memory 
 
 Other choices made:
 ==================
-Used Maven for build.
-Maven-Docker plugin for dockerization
-Public docker repo for code push
-Digital Ocean droplet for production deployment
-SpringBootTest and Junit for testing.
+Used Maven for build. <br />
+Maven-Docker plugin for dockerization <br />
+Public docker repo for code push. https://cloud.docker.com/repository/docker/kkbatta/pocketfb <br />
+Digital Ocean droplet for production deployment. Login credentials can be provided on request. <br />
+SpringBootTest and Junit for unit testing. <br />
 
 Goal was to develop, test and deploy to production using docker. 
 
@@ -34,12 +34,12 @@ Followinfg are fully supported in the PocketFB
 Deploy steps:
 =============
 #./run.sh 
-Above command Builds the code, creates a docker image, pushes it to remote rpository (https://cloud.docker.com/repository/docker/kkbatta/pocketfb) and deployed the image in localhost 8085 port.
+Above command Builds the code, creates a docker image, pushes it to remote rpository  <br />(https://cloud.docker.com/repository/docker/kkbatta/pocketfb) and deployed the image in localhost 8085 port.
 
 
 On public Cloud:
 ================
-The same image has been deployed in digitalocean public cloud.
+The same image has been deployed in digitalocean public cloud. <br />
 Its basic health page can be accessed at http://167.99.105.172:8085/health
 
 
@@ -54,7 +54,7 @@ Followinfg are work in progress and can be achieved with little more time
 
 Future tasks:
 =============
-Security layer 
+Security layer <br /> 
 In memory data persistence
 
 
