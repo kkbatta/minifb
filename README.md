@@ -60,3 +60,4 @@ In memory data persistence
 
 API Details
 ===========
+Swagger API : http://167.99.105.172:8085/swagger-ui.html#/
